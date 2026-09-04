@@ -3,7 +3,8 @@
     <div class="section-inner about-grid">
         <div class="about-visual" data-animate="fade-right">
             <div class="about-frame">
-                <img src="{{ asset('images/profile/muniff.jpg') }}" alt="Portrait of Muniff Agustiansah" loading="lazy" width="480" height="560">
+                <img src="{{ asset('images/tanya.jpg') }}" alt="Portrait of Muniff Agustiansah" loading="lazy"
+                    width="480" height="560">
             </div>
         </div>
 

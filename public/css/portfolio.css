@@ -562,19 +562,44 @@ html[data-theme="dark"] #theme-toggle .icon-moon { display: block; }
 .skill-category { font-size: 0.75rem; color: var(--muted); }
 .skill-card.is-hidden { display: none; }
 
-.tech-marquee { margin-top: 70px; border-block: 1px solid var(--border); padding-block: 22px; overflow: hidden; }
+.tech-marquee { 
+    margin-top: 70px; 
+    border-block: 1px solid var(--border); 
+    padding-block: 22px; 
+    overflow: hidden; 
+    display: flex; 
+}
+
 .marquee-track {
     display: flex;
-    gap: 20px;
     width: max-content;
+    /* Hapus animasi dari sini */
+}
+
+.marquee-content {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px; 
+    flex-shrink: 0; /* KUNCI PC: Mencegah teks menyusut paksa di layar lebar */
+    
     font-family: var(--font-display);
     font-weight: 700;
     font-size: 1.4rem;
     color: var(--muted);
-    animation: marquee-scroll 28s linear infinite;
+    
+    /* Pindahkan animasi ke sini */
+    animation: marquee-scroll 45s linear infinite;
 }
-.marquee-track span:nth-child(odd) { color: var(--accent); }
-@keyframes marquee-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.marquee-content span:nth-child(odd) { 
+    color: var(--accent); 
+}
+
+/* Berubah dari -50% menjadi -100% */
+@keyframes marquee-scroll { 
+    from { transform: translateX(0); } 
+    to { transform: translateX(-100%); } 
+}
 
 /* ========================================================================
    12. PROJECTS

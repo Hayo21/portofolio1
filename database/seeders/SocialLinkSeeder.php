@@ -15,10 +15,10 @@ class SocialLinkSeeder extends Seeder
     public function run(): void
     {
         $links = [
-            ['platform' => 'Email', 'label' => 'Email', 'value' => 'your-email@example.com', 'icon' => 'mail', 'sort_order' => 1],
-            ['platform' => 'GitHub', 'label' => 'GitHub', 'value' => 'https://github.com/your-username', 'icon' => 'github', 'sort_order' => 2],
-            ['platform' => 'LinkedIn', 'label' => 'LinkedIn', 'value' => 'https://linkedin.com/in/your-profile', 'icon' => 'linkedin', 'sort_order' => 3],
-            ['platform' => 'WhatsApp', 'label' => 'WhatsApp', 'value' => '+62xxxxxxxxxxx', 'icon' => 'message-circle', 'sort_order' => 4],
+            ['platform' => 'Email', 'label' => 'Email', 'value' => 'munifagustiansyah21@gmail.com', 'icon' => 'mail', 'sort_order' => 1],
+            ['platform' => 'GitHub', 'label' => 'GitHub', 'value' => 'https://github.com/Hayo21', 'icon' => 'github', 'sort_order' => 2],
+            ['platform' => 'LinkedIn', 'label' => 'LinkedIn', 'value' => 'https://www.linkedin.com/in/munif-agustiansyah/', 'icon' => 'linkedin', 'sort_order' => 3],
+            ['platform' => 'WhatsApp', 'label' => 'WhatsApp', 'value' => '+6282111319138', 'icon' => 'message-circle', 'sort_order' => 4],
             ['platform' => 'Location', 'label' => 'Location', 'value' => 'Bogor, West Java, Indonesia', 'icon' => 'map-pin', 'sort_order' => 5],
         ];
 
