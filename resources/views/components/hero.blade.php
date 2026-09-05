@@ -21,7 +21,6 @@
                     <span>View My Work</span>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                 </a>
-                <a href="{{ asset('storage/cv/muniff-agustiansah-cv.pdf') }}" class="btn-secondary" download>Download CV</a>
             </div>
         </div>
 

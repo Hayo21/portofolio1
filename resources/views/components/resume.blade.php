@@ -5,13 +5,8 @@
             <p class="section-label">07 — RESUME</p>
             <h2>My Resume</h2>
             <p class="section-desc">
-                A quick summary of my education, skills, and project experience —
-                or download the full CV for the complete picture.
+                A quick summary of my education, skills, and project experience.
             </p>
-            <a href="{{ asset('storage/cv/muniff-agustiansah-cv.pdf') }}" class="btn-primary" download>
-                <span>Download CV</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 21h16"/></svg>
-            </a>
         </div>
 
         <div class="resume-summary" data-animate="fade-left">
